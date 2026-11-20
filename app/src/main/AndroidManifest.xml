@@ -5,13 +5,13 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".WidgyApp"
+        android:name=".CoupletApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Widgy"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Widgy">
+        android:theme="@style/Theme.Couplet">
 
         <activity
             android:name=".MainActivity"

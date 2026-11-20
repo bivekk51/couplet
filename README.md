@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="./screenshots/icon.png" alt="Widgy Logo" width="96" height="96" style="border-radius: 22px;" />
+<img src="./screenshots/icon.png" alt="Couplet Logo" width="96" height="96" style="border-radius: 22px;" />
 
-# Widgy
+# Couplet
 
 **Minimalist Lyric Curation App & Android Home Screen Widget**
 
 A distraction-free, open-source Android app to curate 1–2 line poetic verses from your favorite tracks and display them as an editorial, glanceable home screen widget.
 
-[![Website](https://img.shields.io/badge/Website-widgy.nepalbivek.com.np-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://widgy.nepalbivek.com.np/)
-[![Latest Release](https://img.shields.io/github/v/release/bivekk51/widgy?style=for-the-badge&color=10B981&label=Release)](https://github.com/bivekk51/widgy/releases/latest)
+[![Website](https://img.shields.io/badge/Website-couplet.nepalbivek.com.np-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://couplet.nepalbivek.com.np/)
+[![Latest Release](https://img.shields.io/github/v/release/bivekk51/couplet?style=for-the-badge&color=10B981&label=Release)](https://github.com/bivekk51/couplet/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Android_8.0+-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
 [![License](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)](LICENSE)
 
-[🌐 Product Website](https://widgy.nepalbivek.com.np/) • [📦 Download Latest APK](https://github.com/bivekk51/widgy/releases/latest) • [📸 Screenshots](#-screenshots) • [✨ Themes](#-11-curated-editorial-themes) • [🛠 Architecture](#-architecture--tech-stack)
+[🌐 Product Website](https://couplet.nepalbivek.com.np/) • [📦 Download Latest APK](https://github.com/bivekk51/couplet/releases/latest) • [📸 Screenshots](#-screenshots) • [✨ Themes](#-11-curated-editorial-themes) • [🛠 Architecture](#-architecture--tech-stack)
 
 </div>
 
@@ -24,7 +24,7 @@ A distraction-free, open-source Android app to curate 1–2 line poetic verses f
 ### Daily Dashboard & Lyric Curation
 | Today's Verse & Library | Instant Song Search | Stanza & Couplet Picker | Lyric Scrapbook Archive |
 |:---:|:---:|:---:|:---:|
-| <img src="./screenshots/01_dashboard.png" width="230" alt="Widgy Dashboard" /> | <img src="./screenshots/12_search_results.png" width="230" alt="Instant Song Search" /> | <img src="./screenshots/14_lyrics_selected.png" width="230" alt="Stanza Picker" /> | <img src="./screenshots/09_scrapbook.png" width="230" alt="Lyric Scrapbook" /> |
+| <img src="./screenshots/01_dashboard.png" width="230" alt="Couplet Dashboard" /> | <img src="./screenshots/12_search_results.png" width="230" alt="Instant Song Search" /> | <img src="./screenshots/14_lyrics_selected.png" width="230" alt="Stanza Picker" /> | <img src="./screenshots/09_scrapbook.png" width="230" alt="Lyric Scrapbook" /> |
 | *Today's lyric, rotation cadence & curated library* | *Search tracks via LRCLIB without API keys* | *Interactive 1–2 line verse selector* | *Revisit past verses, pin to widget, or share* |
 
 ### Redesigned Category-Based Theme Studio
@@ -43,7 +43,7 @@ A distraction-free, open-source Android app to curate 1–2 line poetic verses f
 ## ✨ Features
 
 - **🎵 One-Tap Playlist Import (New in v1.6.0)**: Drop or share playlist links from Spotify, YouTube, YouTube Music, or Deezer. Zero-auth on-device track extraction, batch lyric fetching, and automatic Random Pool seeding for daily widget rotation.
-- **📲 System Share Sheet (`ACTION_SEND`)**: Tap Share → Widgy directly in Spotify, YouTube Music, or Deezer to import playlists on the fly.
+- **📲 System Share Sheet (`ACTION_SEND`)**: Tap Share → Couplet directly in Spotify, YouTube Music, or Deezer to import playlists on the fly.
 - **🔎 Instant Lyrics via LRCLIB**: Search millions of synced and plain lyrics instantly without API keys, accounts, or rate limits.
 - **✂️ Curate 1–2 Lines**: Tap any stanza to pick the exact couplet that moves you, or let the smart Random Pool pick lines for you.
 - **🎨 Category-Based Theme Studio**: Redesigned mobile customization workspace with dedicated tabs:
@@ -86,7 +86,7 @@ Every theme is crafted with strict WCAG contrast adherence and unique typographi
 ## 🛠 Architecture & Tech Stack
 
 ```
-com.widgy.lyrics
+com.couplet.lyrics
 ├── data/
 │   ├── api/          # LRCLIB API client & iTunes Artwork search
 │   ├── db/           # Room Database, DAOs & TypeConverters
@@ -118,7 +118,7 @@ com.widgy.lyrics
 
 ## 🔒 Privacy & Battery Principles
 
-- **No Background Services**: Widgy never runs persistent background services or notification daemons. Your battery remains untouched.
+- **No Background Services**: Couplet never runs persistent background services or notification daemons. Your battery remains untouched.
 - **Zero Tracking**: No analytics, no crash reporters, no ads, no telemetry, and no account requirements.
 - **100% Offline-Ready**: All saved lyrics and album art are cached locally in your device's private storage.
 
@@ -136,8 +136,8 @@ com.widgy.lyrics
 
 ```bash
 # Clone the repository
-git clone https://github.com/bivekk51/widgy.git
-cd widgy/widgy
+git clone https://github.com/bivekk51/couplet.git
+cd couplet
 
 # Run all unit tests
 ./gradlew testReleaseUnitTest
@@ -157,7 +157,7 @@ cd widgy/widgy
 ## 📦 Releases & GitHub Actions
 
 Automated builds and releases are managed via GitHub Actions:
-- **Production Releases**: Push a version tag (e.g. `git tag v1.5.0 && git push origin v1.5.0`) to trigger the build, sign the APK, and publish an official release with detailed changelogs.
+- **Production Releases**: Push a version tag (e.g. `git tag v1.6.2 && git push origin v1.6.2`) to trigger the build, sign the APK, and publish an official release with detailed changelogs.
 - **Manual Builds**: Go to **Actions** → **Build & Release APK** → **Run workflow** to download an APK artifact without publishing a release.
 
 ---
@@ -170,5 +170,5 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more details.
 
 <div align="center">
   <sub>Crafted with care for typography, poetry, and Android.</sub><br>
-  <sub><a href="https://widgy.nepalbivek.com.np/">widgy.nepalbivek.com.np</a></sub>
+  <sub><a href="https://couplet.nepalbivek.com.np/">couplet.nepalbivek.com.np</a></sub>
 </div>

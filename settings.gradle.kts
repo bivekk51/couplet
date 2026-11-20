@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Widgy"
+rootProject.name = "Couplet"
 include(":app")

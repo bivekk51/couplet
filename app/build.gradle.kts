@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.widgy.lyrics"
+    namespace = "com.couplet.lyrics"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.widgy.lyrics"
+        applicationId = "com.couplet.lyrics"
         minSdk = 26
         targetSdk = 35
         versionCode = project.findProperty("versionCode")?.toString()?.toIntOrNull()

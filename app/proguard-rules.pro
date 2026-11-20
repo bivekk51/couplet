@@ -1,1 +1,1 @@
-# Widgy Proguard Rules
+# Couplet Proguard Rules

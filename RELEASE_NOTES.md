@@ -1,20 +1,18 @@
-# Widgy v1.6.1 – Charles Unslop Design System Refinements & AAA Contrast
+# Couplet v2.0.0 – Welcome to Couplet
 
-Widgy v1.6.1 applies the comprehensive `charles-unslop` design craft principles across the core Android interface, removing visual line noise, subtracting unnecessary containers, enforcing a strict 4px/8px rhythm, and elevating contrast ratios to WCAG AAA.
+**Couplet** is an editorial, minimalist lyric curation app and Android home screen widget.
 
 ---
 
-### ✨ What's New in v1.6.1
+### ✨ What's New in v2.0.0
 
-#### 🎨 Charles Unslop Craft & Subtraction
-* **Dividers Subtracted**: Removed redundant visual dividers in Theme Studio—proximity, whitespace, and natural hierarchy now group categories, dock controls, and actions without unnecessary line clutter.
-* **Surface Nesting Removed**: Subtracted redundant Card wrappers around the Rotation Frequency selector; controls now sit directly on the surface canvas grouped by clean proximity.
-* **Editorial Typographic Restraint**: Removed arbitrary letter spacing on top app bars and enforced natural sentence case across headers, chips, and past lyric scrapbooks.
+#### 🏷️ Official Launch of Couplet
+* **New Brand Identity**: Welcome to **Couplet** (`com.couplet.lyrics`), celebrating 1–2 line poetic verses and couplets.
+* **New Icon & Visual Aesthetic**: Gorgeous new typography-focused brand icon with a tactile dark graphite squircle tile and warm ivory serif glyph.
+* **New Official Domain**: Official product landing page now live at [couplet.nepalbivek.com.np](https://couplet.nepalbivek.com.np/).
 
-#### 📐 Strict 4px/8px Grid Spacing & Unified Tokens
-* Snapped all off-grid paddings (such as `10.dp` and `6.dp`) to strict `8.dp` tokens across `ThemeStudioScreen`, `DashboardScreen`, and `LyricsViewerScreen`.
-* Unified hardcoded radii throughout the app to semantic `WidgyShapes` design tokens (`small` 8dp, `medium` 12dp, `large` 16dp).
-
-#### 👁️ WCAG AAA Contrast Accessibility
-* Replaced low-contrast border outlines (`outline`, 1.38:1) on secondary labels, delete icons, and helper texts with semantic `onSurfaceVariant` (~7.5:1 AAA contrast), ensuring crystal-clear legibility under any lighting conditions.
-* Replaced hardcoded hex colors with theme-aware semantic color scheme tokens.
+#### 🎨 Design System & Refinements
+* **Charles Unslop Craft**: Clean 4px/8px layout grid, subtracted unnecessary dividers and nesting, semantic `CoupletShapes` tokens.
+* **WCAG AAA Contrast**: High-contrast typography and luminance scrimming across all 11 curated themes.
+* **Multi-Script Harmony**: First-class typographic balance for Latin, Nepali, and Hindi lyrics.
+* **Zero-Auth Playlist Import**: Direct playlist drop from Spotify, YouTube, YouTube Music, and Deezer.

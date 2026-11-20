@@ -42,7 +42,7 @@ A distraction-free, open-source Android app to curate 1–2 line poetic verses f
 
 ## ✨ Features
 
-- **🎵 One-Tap Playlist Import (New in v1.6.0)**: Drop or share playlist links from Spotify, YouTube, YouTube Music, or Deezer. Zero-auth on-device track extraction, batch lyric fetching, and automatic Random Pool seeding for daily widget rotation.
+- **🎵 One-Tap Playlist Import**: Drop or share playlist links from Spotify, YouTube, YouTube Music, or Deezer. Zero-auth on-device track extraction, batch lyric fetching, and automatic Random Pool seeding for daily widget rotation.
 - **📲 System Share Sheet (`ACTION_SEND`)**: Tap Share → Couplet directly in Spotify, YouTube Music, or Deezer to import playlists on the fly.
 - **🔎 Instant Lyrics via LRCLIB**: Search millions of synced and plain lyrics instantly without API keys, accounts, or rate limits.
 - **✂️ Curate 1–2 Lines**: Tap any stanza to pick the exact couplet that moves you, or let the smart Random Pool pick lines for you.
@@ -157,7 +157,7 @@ cd couplet
 ## 📦 Releases & GitHub Actions
 
 Automated builds and releases are managed via GitHub Actions:
-- **Production Releases**: Push a version tag (e.g. `git tag v1.6.2 && git push origin v1.6.2`) to trigger the build, sign the APK, and publish an official release with detailed changelogs.
+- **Production Releases**: Push a version tag (e.g. `git tag v1.0.0 && git push origin v1.0.0`) to trigger the build, sign the APK, and publish an official release with detailed changelogs.
 - **Manual Builds**: Go to **Actions** → **Build & Release APK** → **Run workflow** to download an APK artifact without publishing a release.
 
 ---
